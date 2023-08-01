@@ -1,0 +1,21 @@
+.navbar-toggler-icon{
+    border: 0px !important;
+}
+
+.navbar-brand{
+    margin-left: 2vw;
+}
+
+.nav-searchbar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.offcanvas offcanvas-start text-bg-dark{
+    border-radius: 20px !important;
+}
+
+.main-page{
+    
+}
