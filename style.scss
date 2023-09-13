@@ -32,9 +32,9 @@ main{
 .watch:hover{
     filter: brightness(50%);
 }
-aside{
-    h3{
-        align-self: flex-start;
-        text-align: center;
-    }
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

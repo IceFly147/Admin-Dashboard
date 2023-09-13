@@ -34,7 +34,8 @@ main {
   filter: brightness(50%);
 }
 
-aside h3 {
-  align-self: flex-start;
+.sidebar {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
