@@ -1,0 +1,40 @@
+nav{
+    height: 10vh !important;
+}
+
+section{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color:#121212;
+    align-items: center;
+    justify-content: center;
+    
+}
+main{
+    width: 80vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    border-right: 10px dotted #ccc;
+}
+.watch {
+    width: 20vw;
+    height: 30vh;
+    margin: 1.7rem;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.watch:hover{
+    filter: brightness(50%);
+}
+aside{
+    h3{
+        align-self: flex-start;
+        text-align: center;
+    }
+}

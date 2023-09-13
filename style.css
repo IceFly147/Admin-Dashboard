@@ -1,21 +1,40 @@
-.navbar-toggler-icon{
-    border: 0px !important;
+nav {
+  height: 10vh !important;
 }
 
-.navbar-brand{
-    margin-left: 2vw;
+section {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #121212;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-searchbar{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+main {
+  width: 80vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  border-right: 10px dotted #ccc;
 }
 
-.offcanvas offcanvas-start text-bg-dark{
-    border-radius: 20px !important;
+.watch {
+  width: 20vw;
+  height: 30vh;
+  margin: 1.7rem;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s;
 }
 
-.main-page{
-    
+.watch:hover {
+  filter: brightness(50%);
 }
+
+aside h3 {
+  align-self: flex-start;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
